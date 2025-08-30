@@ -1,9 +1,16 @@
 name = "Bob"
 name2 = "Alice"
 
-def greet(name):
+
+def greetUser(name):
     print(f"Hello {name}")
 
-greet(name)
-greet(name2)
+
+greetUser(name.upper())
+greetUser(name2)
 print("Hello World")
+
+if name == "Bob":
+    print("Welcome back, Bob!")
+else:
+    print("Hello, stranger!")
