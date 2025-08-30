@@ -2,8 +2,8 @@ name = "Bob"
 name2 = "Alice"
 
 
-def greetUser(name):
-    print(f"Hello {name}")
+def greetUser(userName):
+    print(f"Hello {userName}")
 
 
 greetUser(name.upper())
