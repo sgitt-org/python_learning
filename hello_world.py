@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 name = "Bob"
 name2 = "Alice"
 
