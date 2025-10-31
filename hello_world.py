@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 
-name = "Bob"
+name = "Bob"  # pylint: disable=invalid-name
 name2 = "Alice"
 
 
-def greetUser(userName):
-    print(f"Hello {userName}")
+def greet_user(user_name):
+    print(f"Hello {user_name}")
 
 
-greetUser(name.upper())
-greetUser(name2)
+greet_user(name.upper())
+greet_user(name2)
 print("Hello World")
 
 if name == "Bob":
