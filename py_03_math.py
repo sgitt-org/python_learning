@@ -13,6 +13,9 @@ print(INVALID_FLOAT)
 INFINITY_FLOAT = float("inf")
 print(INFINITY_FLOAT)
 
+INFINITY_MATH = math.inf
+print("INF: " + str(INFINITY_FLOAT == INFINITY_MATH))
+
 INFINITY_FLOAT_MATH = math.inf
 print(INFINITY_FLOAT_MATH)
 
@@ -45,3 +48,18 @@ print(DEC_0_3)
 
 FLOAT_0_3 = 0.1 + 0.2
 print(FLOAT_0_3)
+
+############ Math operators
+print(abs(-42))
+print(abs(680 // 16))
+print(abs(680 % 16))
+print(abs(2 ** 2))
+print("-----------")
+print(math.sqrt(100))
+print(math.log(100))
+print(math.log10(100))
+print(math.log2(100))
+print(math.pow(2, 10))
+print(math.factorial(5))
+print(math.gcd(12, 18))
+print(math.isqrt(100))
