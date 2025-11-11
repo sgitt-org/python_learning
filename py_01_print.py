@@ -15,4 +15,4 @@ if raining:
     if snowing:
         print("Bring a snowboard!")
     else:
-        print("Just walk!")
+        pass

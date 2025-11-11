@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-
 def print_message(message):
     """Just prints a message
     :param message:
